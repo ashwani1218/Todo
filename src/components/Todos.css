@@ -1,0 +1,9 @@
+.Todos{
+    border: solid 1px;
+    padding: 10px;
+}
+.Todos-remove-all button{
+    color: blue;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}

@@ -1,0 +1,14 @@
+.Todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Todo-text{
+    width:80%;
+    padding:1px;
+}
+.Todo-button{
+    width:20%;
+
+}

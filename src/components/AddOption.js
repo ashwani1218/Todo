@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import "./AddOption.css";
 
 class AddOption extends Component{
     constructor(props){
@@ -19,12 +20,12 @@ class AddOption extends Component{
     }
     render() {
         return (
-            <div>
-            {this.state.error && <p>{this.state.error} </p>}
-            <form onSubmit={this.handleAddTodo}>
-              <input type="text" name="todo" placeholder="Add Todo"></input>
-              <button>Add Todo</button>
-            </form>
+            <div className='footer'>
+                {this.state.error && <p>{this.state.error} </p>}
+                <form onSubmit={this.handleAddTodo}>
+                <input type="text" name="todo" placeholder="Add Todo"></input>
+                <button>Add Todo</button>
+                </form>
             </div>
         )
     }

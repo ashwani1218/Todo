@@ -63,6 +63,7 @@ import AddOption from './components/AddOption';
   render(){
     
     return(<div className='App'> 
+      <div className="App-content">
         <Header />
         <Todos 
           todos={this.state.todos} 
@@ -70,7 +71,9 @@ import AddOption from './components/AddOption';
           handleDeleteTodo = {this.handleDeleteTodo}/>
 
         <AddOption handleAddTodo = {this.handleAddTodo}/>
-      </div>);
+      </div>
+      </div>
+    );
   }
     
   
